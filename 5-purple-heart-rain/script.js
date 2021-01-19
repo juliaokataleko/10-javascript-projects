@@ -1,4 +1,3 @@
-
 function createHeart(){
     const heart = document.createElement('div');
 
@@ -8,7 +7,8 @@ function createHeart(){
 
     heart.style.animationDuration = Math.random() * 2 + 3 + "s";
 
-    heart.innerText = '💜'
+    heart.innerText = '💖'
+    // heart.innerText = '💜'
 
     document.body.appendChild(heart)
 
@@ -17,4 +17,4 @@ function createHeart(){
     }, 5000)
 }
 
-setInterval(createHeart, 100);
+setInterval(createHeart, 1);

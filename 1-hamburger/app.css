@@ -55,5 +55,6 @@ nav ul li {
 
 nav a {
     color: white;
+    display: block;
     text-decoration: none;
 }
