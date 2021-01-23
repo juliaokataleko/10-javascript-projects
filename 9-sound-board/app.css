@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  background-color: #da3434;
+  line-height: 1.8;
+  transition: background 0.3s linear, color 0.3s linear;
+}
+
+.btn {
+  background-color: #b83225;
+  color: white;
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 1.5rem 3rem;
+  border: none;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+}
